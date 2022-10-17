@@ -1,0 +1,106 @@
+
+html{
+    box-sizing:border-box;
+    font-size: 62.5%;
+}
+
+*,:before *,:after{
+    box-sizing: inherit;
+}
+
+
+body{
+    background-color: #2a3338;
+    color: white;
+    font-size: 1.5rem;
+}
+
+h1,h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 476px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    td,th{
+        font-size: 1.1rem;
+    }
+    
+}
+
+h3{
+    margin-top: 5rem;
+}
+
+h3 span{
+    color: black;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.tabla {
+    background-color: #2a3338;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.contenedor{
+    max-width: 67rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.input{
+    margin-bottom: 2rem; 
+}
+
+.label{
+    font-size: 2rem;
+}
+
+#busqueda{
+    width: 20rem;
+    margin-left: 0.2rem;
+}
+
+th,
+td{
+    padding:0.5rem 0;
+}
+
+th{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+thead th:nth-child(1){
+    width: 3rem;
+}
+
+thead th:nth-child(2){
+    width: 18rem;
+}
+
+thead th:nth-child(3),
+thead th:nth-child(5){
+    width: 14rem;
+}
+thead th:nth-child(4){
+    width: 19rem;
+}
+
+tbody td{
+    text-align: center;
+}
+
+
